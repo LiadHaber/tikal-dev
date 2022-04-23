@@ -3,7 +3,4 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
-- infrastructure.yaml
-patchesStrategicMerge:
-- ./gotk-patches.yaml
-  
+- infrastructure.yaml  
